@@ -19,7 +19,7 @@ def on_release(key):
     #     # Stop listener
     #     return False
     num = increment()
-    print(num)
+    # print(num)
     
 
 # Collect events until released

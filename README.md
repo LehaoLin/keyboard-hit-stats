@@ -17,3 +17,11 @@ pip3 install -r requirements.txt
 ```bash
 python3 main.py
 ```
+
+Or you can use pm2 to manage it
+
+```bash
+pm2 start main.py -x --interpreter python3
+```
+
+
